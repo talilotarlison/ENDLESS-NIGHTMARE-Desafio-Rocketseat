@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  color: #9b0800;
+  width:100vw;
+  height:100vh;
+font-family: 'Mynerve', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://conteudo.imguol.com.br/c/noticias/2014/08/04/capas-facebook-terror-1407171497357_615x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner{
+  text-align: center;
+ 
+}
+.banner > h1{
+   font-family: 'Creepster', cursive;
+   font-size: 70px;
+  color:#9b0800;
+  letter-spacing: 5px;
+  animation: myAnimation 10s linear infinite;
+   animation-duration: 10s;
+    animation-name:  myAnimation;
+ 
+}
+.banner > h3{
+  display: inline-block;
+   margin: 25px;
+}
+
+span{
+  color: #df931b;
+}
+p{
+  color: #e0daa3;
+  margin: 25px;
+}
+
+.links{
+  padding:15px;
+text-align:center;
+  transform: scale(1.1);
+}
+a{  padding:8px;
+   margin: 0 15px;
+  color:#b8c7cc;
+    border-radius:5px;
+  font-weight: bolt;
+
+}
+.play{
+  background-color:#ffffff05;
+  padding:7px;
+  text-decoration: none;
+  border: solid 1px white;
+}
+a:hover{
+   background-color: #FF000088;
+  padding:7px;
+  text-decoration: none;
+  color: white;
+   border: solid 1px white;
+  border-radius:5px;
+}
+
+@keyframes myAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
